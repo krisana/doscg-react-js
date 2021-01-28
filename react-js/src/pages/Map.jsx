@@ -10,7 +10,7 @@ export default function Map({ children }) {
     <Layout>
       <h1>Map</h1>
       <MapLoader
-        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkROOc1MXp-oGjhC8sCSS98alzC3-kqRE"
+        googleMapURL="https://maps.googleapis.com/maps/api/js?key=[Your API Key]"
         loadingElement={<div style={{ height: '100%' }} />}
       />
     </Layout>
